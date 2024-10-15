@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 mongoose.connect(
-  "mongodb+srv://onkar:onkar@cluster0.dgxmi.mongodb.net/userAppNew?authMechanism=DEFAULT"
+  "mongodb+srv://onkar:onkar@cluster0.dgxmi.mongodb.net/todos?authMechanism=DEFAULT"
 );
 
 const todoSchema = mongoose.Schema({
