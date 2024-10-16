@@ -7,3 +7,22 @@
   padding: 4px;
   margin: 4px;
 }
+
+.todo-item {
+  display: flex;
+  column-gap: 4px;
+  align-items: center;
+}
+
+.todo-fields {
+  margin: 0;
+}
+
+.todo-title {
+  font-size: 16px;
+}
+
+.todo-container {
+  margin-top: 12px;
+  padding: 4px;
+}
